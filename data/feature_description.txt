@@ -1,0 +1,59 @@
+Board Games Dataset
+
+The dataset contains information regarding more than 20k board games rated by an online board game community. The information provided range from year of publication, game difficulty, number of players, to information about game rank in specific categories and game characteristics/themes.
+
+
+GAMES
+	BGGId         Game Id
+	Name			Name of game
+	Description		Description of the game 
+	YearPublished		Year in which the game was published
+	GameWeight		Game complexity from 1 to 5
+	ComWeight	        Community recommended game complexity from 1 to 5
+	MinPlayers		Minimum number of players
+	MaxPlayers		Maximum number of players
+	ComAgeRec		Community's recommended age minimum
+	LanguageEase		Language requirement
+	BestPlayers		Community voted best player count
+	GoodPlayers		List of community voted good player counts
+	NumOwned		Number of users who own this game
+	NumWant			Number of users who want this game
+	NumWish			Number of users who wishlisted this game
+	NumWeightVotes		Number of votes for the weight category received by users
+	MfgPlayTime		Manufacturer Stated Play Time
+	ComMinPlaytime		Community minimum play time
+	ComMaxPlaytime		Community maximum play time
+	MfgAgeRec		Manufacturer Age Recommendation
+	NumUserRatings		Number of user ratings
+	NumComments		Number of user comments
+	NumAlternates		Number of alternate versions
+	NumExpansions		Number of expansions
+	NumImplementations	Number of implementations
+	IsReimplementation	Is this game presenting a reimplementation? 
+	Family			Game family the game belongs to
+	Kickstarted		Is this game from a kickstarter (crowdfunding campaign) project?
+	ImagePath		Image http:// path
+	Rank:strategygames	Rank in strategy games
+	Rank:abstracts		Rank in abstracts
+	Rank:familygames	Rank in family games
+	Rank:thematic		Rank in thematic
+	Rank:cgs		Rank in card games
+	Rank:wargames		Rank in war games
+	Rank:partygames		Rank in party games
+	Rank:childrensgames	Rank in children's games
+	Cat:Thematic		Binary is in Thematic category
+	Cat:Strategy		Binary is in Strategy category
+	Cat:War			Binary is in War category
+	Cat:Family		Binary is in Family category
+	Cat:CGS			Binary is in Card Games category
+	Cat:Abstract		Binary is in Abstract category
+	Cat:Party		Binary is in Party category
+	Cat:Childrens		Binary is in Childrens category
+	Rating			Game rating (low, medium, high)
+
+
+
+
+ 
+
+	
